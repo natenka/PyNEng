@@ -2,7 +2,7 @@
 
 Для того, чтобы начать работать с GitHub, надо на нём [зарегистрироваться](https://github.com/join). Для безопасной работы, лучше использовать аутентификацию по ключам SSH.
 
-> Эта же [инструкция](https://help.github.com/articles/connecting-to-github-with-ssh/) на GitHub
+> Подобная [инструкция](https://help.github.com/articles/connecting-to-github-with-ssh/) на GitHub
 
 Генерация нового SSH-ключа (используйте e-mail, который привязан к GitHub):
 
