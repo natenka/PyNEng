@@ -20,10 +20,6 @@ git diff показывает, какие изменения были внесе
 
 ![alt](https://raw.githubusercontent.com/natenka/PyNEng/master/images/git/git_diff_staged.png)
 
-Теперь закоммитим изменения:
-
-![alt](https://raw.githubusercontent.com/natenka/PyNEng/master/images/git/git_commit_2.png)
-
 ##### git log
 
 Команда git log показывает, когда были выполнены последние изменения:
