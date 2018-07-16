@@ -12,7 +12,7 @@ git diff показывает, какие изменения были внесе
 
 ![alt](https://raw.githubusercontent.com/natenka/PyNEng/master/images/git/git_diff.png)
 
-Если добавить изменения в файлы и ещё раз выполнить git diff, она ничего не покажет:
+Если добавить изменения в файлы без коммита, и затем ещё раз выполнить git diff, она ничего не покажет:
 
 ![alt](https://raw.githubusercontent.com/natenka/PyNEng/master/images/git/git_add_git_diff.png)
 
