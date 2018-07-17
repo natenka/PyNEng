@@ -23,7 +23,7 @@
       * [Работа с Git](book/02_git_github/git_basics_commands.md)
       * [Дополнительные возможности](book/02_git_github/git_basics_additional.md)
     * [Аутентификация на GitHub](book/02_git_github/git_github_auth.md)
-    * [Добавление изменений в Git и GitHub](book/02_git_github/git_github_changes.md)
+    * [Добавление изменений в Git и на GitHub](book/02_git_github/git_github_changes.md)
     * [Работа с репозиторием заданий и примеров](book/02_git_github/pyneng_github.md)
     * [Дополнительные материалы](book/02_git_github/further_reading.md)
     * [Задания](exercises/02_git_github/02_exercises.md)
