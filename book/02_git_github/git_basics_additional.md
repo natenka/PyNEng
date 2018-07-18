@@ -32,6 +32,27 @@ git diff показывает, какие изменения были внесе
 
 ![alt](https://raw.githubusercontent.com/natenka/PyNEng/master/images/git/git_log_p.png)
 
-Параметр "-p" указывает путь, откуда будут выводиться данные по коммитам. Например если использовать "-p ..origin/master", выведутся коммиты с репозитория на GitHub, которых нет в локальном репозитории. Параметр "-1" позволяет вывести только один последний коммит. Более короткий вариант вывода можно вывести с флагом "--stat":
+Параметр "-p" указывает путь, откуда будут выводиться данные по коммитам. Например если использовать "-p ..origin/master", выведутся коммиты с репозитория на GitHub, которых нет в локальном репозитории.
+
+```shellsession
+$ git log -p ..origin/master
+commit 4c1821030d20b3682b67caf362fd777d098d9126
+Author: Наташа Самойленко <nataliya.samoylenko@gmail.com>
+Date:   Mon May 29 07:53:45 2017 +0300
+
+Update README.md
+
+diff --git a/tools/README.md b/tools/README.md
+index 2b6f380..4f8d4af 100644
+--- a/tools/README.md
++++ b/tools/README.md
+@@ -1 +1,4 @@
++
++Тут находятся PDF версии руководств по настройке инструментов, которые используются на курсе.
+```
+
+Параметр "-1" позволяет вывести только один последний коммит.
+
+Более короткий вариант вывода можно вывести с флагом "--stat":
 
 ![alt](https://raw.githubusercontent.com/natenka/PyNEng/master/images/git/git_log_stat.png)
