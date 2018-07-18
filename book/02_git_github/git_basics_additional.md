@@ -32,6 +32,6 @@ git diff показывает, какие изменения были внесе
 
 ![alt](https://raw.githubusercontent.com/natenka/PyNEng/master/images/git/git_log_p.png)
 
-Более короткий вариант вывода можно вывести с флагом "--stat":
+Параметр "-p" указывает путь, откуда будут выводиться данные по коммитам. Например если использовать "-p ..origin/master", выведутся коммиты с репозитория на GitHub, которых нет в локальном репозитории. Параметр "-1" позволяет вывести только один последний коммит. Более короткий вариант вывода можно вывести с флагом "--stat":
 
 ![alt](https://raw.githubusercontent.com/natenka/PyNEng/master/images/git/git_log_stat.png)
